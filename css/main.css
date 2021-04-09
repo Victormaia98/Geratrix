@@ -97,12 +97,16 @@ li a{
    }
 
 /******************* FORMULARIO A ESQUERDA ************/
+.div-esquerda{
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    }
 
 .form-esquerda{
     display: table-caption;
     position: relative;
-    left: 25%;
-    margin: 25px;
 }
 
 
@@ -110,12 +114,13 @@ li a{
 
 .div-direita{
 width: 100%;
-position: relative;
-display: table-caption;
+position: fixed;
+top: 50%;
+left: 75%;
 }
 .form-direita{
     position: relative;
-
+    display: table-caption;
 }
 
 
