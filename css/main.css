@@ -127,19 +127,26 @@ left: 70%;
 label{
     color: white;
     font-size: 20px;
+    width: 15vh;
+    display: inline-block;
+    font-family: 'Kiwi Maru', serif;
 }
 input{
-    border-radius: 15px;
+    border-radius: 100px;
     height: 30px;
     width: 250px;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
+    border-style: solid;
+    border-width: 2.85px;
+    border-color: #051937;
 }
 button{
 text-align: center;
+font-family: 'Kiwi Maru', serif;
 width: 150px;
 height: 40px;
-border-radius: 20px;
+border-radius: 100px;
 background-color: white;
 color: #253f66;
 font-size: 15px;
@@ -151,6 +158,9 @@ margin: 15px -70px;
 position:relative;
 top:50%; 
 left:50%;
+border-style: solid;
+border-width: 2.85px;
+border-color: #051937;
 }
 
 /************************* FIM CSS MAIN INDEX *********************/
@@ -161,10 +171,32 @@ left:50%;
 /*************************** CSS TELA DE LOGIN ***********************/
 .form-login{
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: teal; /* BOTAR UM DEGRADE COMO O FUNDO DA PAGINA, SÓ QUE DIFERENTE*/
+    background-color: transparent;    
 }
+
+h1{
+    color: #253f66;
+    text-shadow: 0.07em 0.07em 0.03em #fff;        font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    position: absolute;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: 'Kiwi Maru', serif;
+}
+
+
 /*************************** FIM CSS TELA DE LOGIN ***********************/
 
