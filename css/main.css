@@ -153,5 +153,18 @@ top:50%;
 left:50%;
 }
 
-/************************* FIM CSS MAIN *********************/
+/************************* FIM CSS MAIN INDEX *********************/
+
+
+    
+
+/*************************** CSS TELA DE LOGIN ***********************/
+.form-login{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: teal; /* BOTAR UM DEGRADE COMO O FUNDO DA PAGINA, SÓ QUE DIFERENTE*/
+}
+/*************************** FIM CSS TELA DE LOGIN ***********************/
 

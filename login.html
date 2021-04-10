@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GERATRIX</title>
+    <title>Login</title>
 </head>
 
 <body>
@@ -21,11 +21,11 @@
             <div class="container-principal">
                 <ul class="menu-index">
                     <li>
-                        <a class="home" href="#">Home</a>
+                        <a class="home" href="index.html">Home</a>
                     </li>
      
                     <li>
-                        <a class="cadastro" href="login.html">Cadastro/Login</a>
+                        <a class="cadastro" href="#">Cadastro/Login</a>
                     </li>
                 </ul>
             </div>
@@ -40,34 +40,29 @@
         <div class="nome">
             <h1 class="geratrix">GERATRIX</h1>
         </div>
-<!---------------------------  LINHA VERTICAL NO MEIO ------------------>
-        <div class="box">
-            <div class="linha-vertical">
+
+        <div class="caixa-login">
+            <div class="login">
+                <h1>
+                    Login
+                </h1>
             </div>
-        </div>
+            <form class="form-login">
+                <div class="campo">
+                    <label>Usuário</label>
+                    <input type="text">
+                </div>
 
-<!-----------------------  FORM LADO ESQUERO ----------------------->
-        <div class="div-esquerda">
-            <form class="form-esquerda">  
-                <label>Informe sua senha</label>
-                <input type="password" name="senha" id="senha">
-                <button><strong>Testar Senha</strong></button>
-        </form>
-        </div>
-
-
-<!------------------------- FORM LADO DIREITO ---------------->
-        <div class="div-direita">
-            <form class="form-direita">  
-                <label>Letras</label>
-                <input type="text" name="letras" id="letras">
-                <label>Números</label>
-                <input type="text" name="numero" id="numero">
-                <label>Caracteres</label>
-                <input type="text" name="carac" id="carac">
-                <button><strong>Gerar Senha</strong></button>
+                <div class="campo">
+                    <label>Senha</label>
+                    <input type="password">
+                </div>
+                <button>Login</button>
+                <p id="cadastro">Cadastrar-se</p>
             </form>
+
         </div>
+
 
 
     </main>
