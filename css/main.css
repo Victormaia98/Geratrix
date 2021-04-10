@@ -101,7 +101,7 @@ li a{
     width: 100%;
     position: fixed;
     top: 50%;
-    left: 25%;
+    left: 20%;
     }
 
 .form-esquerda{
@@ -116,13 +116,41 @@ li a{
 width: 100%;
 position: fixed;
 top: 50%;
-left: 75%;
+left: 70%;
 }
 .form-direita{
     position: relative;
     display: table-caption;
 }
 
+/**************** CONFIGURAÇÃO DE PADRÕES ****************/
+label{
+    color: white;
+}
+input{
+    border-radius: 15px;
+    height: 25px;
+    width: 250px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+button{
+text-align: center;
+width: 150px;
+height: 35px;
+border-radius: 15px;
+background-color: white;
+color: #253f66;
+font-size: 15px;
+margin-top: 7%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 15px -70px; 
+position:relative;
+top:50%; 
+left:50%;
+}
 
 /************************* FIM CSS MAIN *********************/
 
