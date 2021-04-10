@@ -126,10 +126,11 @@ left: 70%;
 /**************** CONFIGURAÇÃO DE PADRÕES ****************/
 label{
     color: white;
+    font-size: 20px;
 }
 input{
     border-radius: 15px;
-    height: 25px;
+    height: 30px;
     width: 250px;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
@@ -137,8 +138,8 @@ input{
 button{
 text-align: center;
 width: 150px;
-height: 35px;
-border-radius: 15px;
+height: 40px;
+border-radius: 20px;
 background-color: white;
 color: #253f66;
 font-size: 15px;
