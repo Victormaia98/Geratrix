@@ -144,12 +144,12 @@ input{
 button{
 text-align: center;
 font-family: 'Kiwi Maru', serif;
+font-size: 20px;
 width: 150px;
 height: 40px;
 border-radius: 100px;
 background-color: white;
 color: #253f66;
-font-size: 15px;
 margin-top: 7%;
 display: flex;
 justify-content: center;
@@ -188,7 +188,7 @@ h1{
     transform: translate(-50%, -50%);
 }
 
-p{
+#cadastro{
     position: absolute;
     left: 50%;
     color: white;
@@ -198,5 +198,14 @@ p{
 }
 
 
+/*************************** CSS TELA DE CADASTRO ***********************/
+
+.form-cadastro{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;    
+}
 /*************************** FIM CSS TELA DE LOGIN ***********************/
 
